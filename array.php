@@ -43,5 +43,33 @@ echo "<br>";
 
 echo $students["email"];
 
+echo "<br>";
+
+
+// Multidimensional Array
+
+$foods=[
+	'breakfast'=>['Mohingar','Nan Gyi Thoke',"Kaunt Nyin Paung"],
+	'lunch'=>['Rric and Burmese Curry','Shan-style rice'],
+	'dinner'=>['Chapatis and Curry','Kausuthoke']
+];
+
+var_dump($foods);
+echo "<br>";
+
+print_r($foods['lunch']);
+echo "<br>";
+
+echo $foods['lunch'][1];
+
+
+
+
+
+
+
+
+
+
 
 ?>
